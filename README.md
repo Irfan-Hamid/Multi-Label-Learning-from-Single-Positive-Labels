@@ -10,6 +10,14 @@ network and several different loss functions.
 Run the following command to install the necessary modules from the requirements.txt file:
 "pip install -r requirements.txt"
 
+The environment is typically created by doing the following:
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
 ## Data:
 This project uses data with npz extension. Ensure that you have the necessary files in this directory before running the application. The data files have already been included in the folder 'data'.
 
