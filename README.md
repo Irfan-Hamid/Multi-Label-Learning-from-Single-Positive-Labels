@@ -22,7 +22,7 @@ pip install -r requirements.txt
 This project uses data with npz extension. Ensure that you have the necessary files in this directory before running the application. The data files have already been included in the folder 'data'.
 
 ## Latex 
-The LaTeX source files for this project are stored in a compressed format for convenience. You can find them in the 11.zip file located in the repository (folder named 'report')
+The LaTeX source files for this project are stored in 'report'
 
 ## Models:
 After installing the dependencies and setting up the data, you can run the models, Baseline_(BCE)_model.ipynb, Model_with_UPLloss.ipynb and Model_with_WANloss.ipynb. Results may vary slightly, as it does train a neural network. 
